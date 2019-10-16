@@ -158,6 +158,21 @@
                 </div>
               </div>
               <div class="testimonial">
+                  <div>
+                    <p>
+                      "The messages Dana delivered me were very healing. I was amazed
+                      at the precision and accuracy of the description of my great
+                      grandmother. She helped me to remember sides of her that I had
+                      forgotten. It was very soothing to receive her loving message to
+                      me and to be reminded that I am always surrounded by my
+                      ancestors who have passed. After our session, I felt very happy
+                      all day and I felt motivated to keep on with my writing
+                      endeavors. I'm so grateful for Dana's offerings."
+                    </p>
+                    <small> ~A. Dunin, Santa Cruz, Calif.</small>
+                  </div>
+              </div>
+              <div class="testimonial">
                 <div>
                   <p>
                     "In February 2017 I began my journey with Dana Marie. We first
@@ -171,20 +186,6 @@
                   <small>~ A. Adamec, San Francisco, Calif.</small>
                 </div>
               </div>
-              <div class="testimonial">
-                <div>
-                  <p>
-                    "The messages Dana delivered me were very healing. I was amazed
-                    at the precision and accuracy of the description of my great
-                    grandmother. She helped me to remember sides of her that I had
-                    forgotten. It was very soothing to receive her loving message to
-                    me and to be reminded that I am always surrounded by my
-                    ancestors who have passed. After our session, I felt very happy
-                    all day and I felt motivated to keep on with my writing
-                    endeavors. I'm so grateful for Dana's offerings."
-                  </p>
-                  <small> ~A. Dunin, Santa Cruz, Calif.</small>
-                </div>
               </div>
             </div>
           </div>
@@ -192,16 +193,16 @@
         <!-- contact -->
         <section id="contact">
             <div class="contact-form p-2">
+                <form id="contact-form" action="contact.php" method="post" >
               <h2 class="m-heading">Contact</h2>
               <p>Please use the contact form below, or call directly.</p>
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Enter Name">
+                <input type="text" name="name" id="name" placeholder="Enter Name" required>
               </div>
               <div class="form-group">
-                <form action="">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="emain" placeholder="Enter Email">
+                <input type="email" name="email" id="email" placeholder="Enter Email" required>
               </div>
               <div class="form-group">
                 <label for="number">Phone Number</label>
@@ -209,7 +210,7 @@
               </div>
               <div class="form-group">
                 <label for="message"></label>
-                <textarea name="message" id="message" placeholder="Message" rows="15"></textarea>
+                <textarea name="message" id="message" placeholder="Message" rows="15" required></textarea>
               </div>
               <input type="submit" value="Send" class="btn-dark">
             </form>

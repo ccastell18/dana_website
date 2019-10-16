@@ -259,6 +259,11 @@ p {
 
 #contact .contact-form h2 {
   color: white;
+  text-align: center;
+}
+
+#contact .contact-form p {
+  text-align: center;
 }
 
 .contact-form {
@@ -273,6 +278,7 @@ p {
 #contact .contact-form label {
   display: block;
   font-size: 1.5rem;
+  margin-bottom: 5px;
 }
 
 #contact .contact-form input,
