@@ -202,6 +202,10 @@ p {
   flex: 1;
 }
 
+#about .about-headline {
+  text-align: center;
+}
+
 #about .about-img {
   background: url('../img/new_tree.jpeg') no-repeat center center/cover;
 }
