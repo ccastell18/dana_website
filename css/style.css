@@ -84,6 +84,10 @@ p {
   padding: 3rem 0;
 }
 
+.py-4 {
+  padding: 0.8rem;
+}
+
 .p-1 {
   padding: 1.2rem;
 }
@@ -141,9 +145,13 @@ p {
   background: #9b8a5d;
 }
 
+.top {
+  padding-top: 3rem;
+}
+
 /* Showcase */
 #showcase {
-  background: #fff url('../img/hands.jpg') no-repeat center center/cover;
+  background: #fff url('../img/stars.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -158,17 +166,22 @@ p {
   padding: 0 2rem;
   /* overlay */
   position: absolute;
-  top: 65px;
+  top: 58px;
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
+#showcase .headline {
+  font-size: 7rem;
+  font-weight: bold;
 }
 
 /* testimonial */
 .testimonials {
   display: flex;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .testimonial {
@@ -176,6 +189,7 @@ p {
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem;
+  padding-right: 10px;
 }
 
 /* about */
@@ -291,7 +305,16 @@ p {
 
 #contact .contact-image {
   background: url('../img/lifting\ the\ viel-0.jpg') no-repeat center center/cover;
-  height: 95vh;
+  height: 100vh;
+}
+
+#contact .phone {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#contact .contact-text {
+  font-size: 1.5rem;
 }
 
 #main-footer {
