@@ -1,0 +1,64 @@
+/* smartphones */
+@media(max-width: 500px) {
+  .l-heading {
+    font-size: 2rem;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  #navbar ul li a {
+    padding: .08rem;
+    margin: 0 0.5rem;
+  }
+
+  #showcase .showcase-content {
+    top: 236px;
+  }
+
+  #resources {
+    display: block;
+  }
+
+  #resources .text {
+    text-align: center;
+  }
+
+  #about {
+    display: block;
+  }
+
+  #about .about-img {
+    height: 100vh;
+  }
+
+  #about p {
+    text-align: center;
+  }
+
+  .testimonials {
+    display: block;
+  }
+
+  #contact {
+    display: block;
+  }
+
+  #contact .contact-image {
+    display: none;
+  }
+}
