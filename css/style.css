@@ -117,10 +117,14 @@ p {
   padding: 0.1rem 0;
 }
 
+.shadow {
+  text-shadow: 2px 2px 0.5px #000000;
+}
+
 /* navbar */
 #navbar {
   display: flex;
-  background: #333;
+  background: linear-gradient(to left, rgb(0, 0, 0), rgb(41, 40, 40));
   position: sticky;
   color: white;
   top: 0;
@@ -151,7 +155,10 @@ p {
 
 /* Showcase */
 #showcase {
-  background: #fff url('../img/stars.jpg') no-repeat center center/cover;
+  background: linear-gradient(to right, rgba(41, 40, 40, 0.8), rgba(0, 0, 0, 0.9)), url('../img/stars.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
   height: 100vh;
   color: #fff;
 }
@@ -165,12 +172,12 @@ p {
   height: 100%;
   padding: 0 2rem;
   /* overlay */
-  position: absolute;
+  /* position: absolute;
   top: 58px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8); */
 }
 
 #showcase .headline {
@@ -182,6 +189,7 @@ p {
 .testimonials {
   display: flex;
   padding: 2rem;
+  justify-content: space-between;
 }
 
 .testimonial {
@@ -190,6 +198,8 @@ p {
   padding: 1rem;
   font-size: 1.5rem;
   padding-right: 10px;
+  border: 1px solid;
+  box-shadow: 5px 5px 1rem #333;
 }
 
 /* about */
@@ -212,13 +222,13 @@ p {
 
 .about-text {
   color: #fff;
-  background-color: #333;
+  background: linear-gradient(to top right, rgba(41, 40, 40, 0.8), rgba(0, 0, 0, 0.9));
   font-size: 1.5rem;
 }
 
 /* services */
 #services {
-  background-color: #9b8a5d;
+  background: linear-gradient(to right, rgb(201, 183, 132), rgb(155, 138, 93));
 }
 
 #services .services-text {
@@ -285,7 +295,7 @@ p {
 }
 
 .contact-form {
-  background-color: #9b8a5d;
+  background: linear-gradient(to right, rgb(201, 183, 132), rgb(155, 138, 93));
   font-size: 1.5;
 }
 
@@ -297,6 +307,7 @@ p {
   display: block;
   font-size: 1.5rem;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 #contact .contact-form input,
@@ -304,6 +315,7 @@ p {
   width: 100%;
   padding: 0.5rem;
   font-size: 1.3rem;
+  box-shadow: 5px 5px 3px #333;
 }
 
 
