@@ -121,6 +121,10 @@ p {
   text-shadow: 2px 2px 0.5px #000000;
 }
 
+.text-border {
+  text-shadow: 2px 2px 0.5px #333;
+}
+
 /* navbar */
 #navbar {
   display: flex;
@@ -155,7 +159,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: linear-gradient(to right, rgba(41, 40, 40, 0.8), rgba(0, 0, 0, 0.9)), url('../img/stars.jpg');
+  background: linear-gradient(to right, rgba(41, 40, 40, 0.8), rgba(0, 0, 0, 0.8)), url('../img/stars.jpg');
   background-position: center;
   background-size: cover;
   background-color: #fff;
@@ -189,7 +193,8 @@ p {
 .testimonials {
   display: flex;
   padding: 2rem;
-  justify-content: space-between;
+  margin: auto 0;
+  justify-content: space-around;
 }
 
 .testimonial {
@@ -199,6 +204,7 @@ p {
   font-size: 1.5rem;
   padding-right: 10px;
   border: 1px solid;
+  margin-right: 1.5rem;
   box-shadow: 5px 5px 1rem #333;
 }
 
@@ -206,6 +212,7 @@ p {
 
 #about {
   display: flex;
+  border-bottom: 1px #333;
 }
 
 #about div {
