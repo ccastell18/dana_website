@@ -184,9 +184,35 @@ p {
   background-color: rgba(0, 0, 0, 0.8); */
 }
 
-#showcase .headline {
+#showcase .headline-1 {
   font-size: 4rem;
   font-weight: bold;
+  animation-name: moveInTop;
+  animation-duration: 3s;
+}
+
+#showcase .headline-2 {
+  display: block;
+}
+
+#showcase .headline-3 {
+  display: block;
+}
+
+
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  80% {}
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 /* testimonial */
