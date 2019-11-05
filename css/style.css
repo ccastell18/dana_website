@@ -61,6 +61,7 @@ p {
   padding: 0.6rem 2rem;
   border: none;
   border-radius: 5px;
+  transition: all .2s;
 }
 
 .btn-dark {
@@ -147,10 +148,16 @@ p {
   color: #fff;
   padding: 0.75rem;
   margin: 0 0.25rem;
+  transition: all .2s;
 }
 
 #navbar ul li a:hover {
   background: #9b8a5d;
+}
+
+#navbar ul li a:active {
+  background: #9b8a5d;
+
 }
 
 .top {
@@ -188,15 +195,38 @@ p {
   font-size: 4rem;
   font-weight: bold;
   animation-name: moveInTop;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 #showcase .headline-2 {
-  display: block;
+  animation-name: fadeIn;
+  animation-duration: 3.5s;
 }
 
+
 #showcase .headline-3 {
-  display: block;
+  animation-name: fadeIn;
+  animation-duration: 4.5s;
+}
+
+#showcase .headline-4 {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+}
+
+#showcase .btn {
+  animation-name: moveUp;
+  animation-duration: 2s;
+}
+
+#showcase .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+#showcase .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -204,7 +234,7 @@ p {
 @keyframes moveInTop {
   0% {
     opacity: 0;
-    transform: translateY(-100px);
+    transform: translateY(-50px);
   }
 
   80% {}
@@ -212,6 +242,28 @@ p {
   100% {
     opacity: 1;
     transform: translate(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0)
   }
 }
 
@@ -231,7 +283,7 @@ p {
   padding-right: 10px;
   border: 1px solid;
   margin-right: 1.5rem;
-  box-shadow: 5px 5px 1rem #333;
+  box-shadow: 0px 10px 10px #333;
 }
 
 /* about */
@@ -348,7 +400,7 @@ p {
   width: 100%;
   padding: 0.5rem;
   font-size: 1.3rem;
-  box-shadow: 5px 5px 3px #333;
+  box-shadow: 0 5px 10px #333;
 }
 
 
