@@ -126,6 +126,10 @@ p {
   text-shadow: 0 1px 1px #333;
 }
 
+.italic{
+  font-style: italic;
+}
+
 /* navbar */
 #navbar {
   display: flex;
@@ -302,7 +306,8 @@ p {
 }
 
 #about .about-img {
-  background: url('../img/new_tree.jpeg') no-repeat center center/cover;
+  background: url('../img/Profile\ photo.jpg') no-repeat center center/cover;
+  scale: 75%;
 }
 
 .about-text {
@@ -315,13 +320,16 @@ p {
 #services {
   background: linear-gradient(to right, rgb(201, 183, 132), rgb(155, 138, 93));
 }
+.margin-top-1{
+  margin-top: 15px;
+}
 
 #services .services-text {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: 100%;
   padding: 0 2rem;
   font-size: 1.5rem;
@@ -329,6 +337,7 @@ p {
 
 .services-title {
   color: #fff;
+  text-align: center;
 }
 
 .services-span {
@@ -337,6 +346,12 @@ p {
 
 .bold {
   font-weight: bold;
+}
+.service-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1.5rem;
 }
 
 /* resources */
@@ -357,6 +372,13 @@ p {
   flex-direction: column;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.resource-image{
+  background: url('../img/Hands\ on\ healing\ Photo.JPG') no-repeat center center/cover;
+  margin-right: 50px;
+  margin-bottom: 50px;
+ 
 }
 
 /* contact */
