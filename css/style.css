@@ -393,12 +393,12 @@ p {
   background-repeat: no-repeat;
   background-size: cover ;
   background-position-y: -400px;
+  background-position-x: 50px;
   height: 380px;
-  width: 600px;
+  width: 550px;
   margin-top: 44px;
   margin-right: 50px;
   margin-bottom: 50px;
-  border: 1px solid #000000;
  
 }
 
