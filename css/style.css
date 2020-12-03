@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: serif, sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 1.1;
   background-color: white;
 }
@@ -130,6 +130,10 @@ p {
   font-style: italic;
 }
 
+.bottom{
+  margin-bottom: 1rem;
+}
+
 /* navbar */
 #navbar {
   display: flex;
@@ -166,6 +170,14 @@ p {
 
 .top {
   padding-top: 3rem;
+}
+
+.top-2 {
+  padding-top: 1.5rem;
+}
+
+.top-3{
+  padding-top: 1rem;
 }
 
 /* Showcase */
@@ -307,7 +319,8 @@ p {
 
 #about .about-img {
   background: url('../img/Profile\ photo.jpg') no-repeat center center/cover;
-  scale: 75%;
+  height: 650px 
+ 
 }
 
 .about-text {
@@ -375,9 +388,17 @@ p {
 }
 
 .resource-image{
-  background: url('../img/Hands\ on\ healing\ Photo.JPG') no-repeat center center/cover;
+  background: url('../img/Hands\ on\ healing\ Photo.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position-y: -400px;
+  height: 380px;
+  width: 600px;
+  margin-top: 44px;
   margin-right: 50px;
   margin-bottom: 50px;
+  border: 1px solid #000000;
  
 }
 
