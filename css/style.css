@@ -322,6 +322,8 @@ p {
 
 #about .about-img {
   background: url('../img/Profile\ photo.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: auto;
 }
 
 .about-text {
@@ -397,7 +399,8 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  width: 100%;
+  height: auto;
   margin-top: 44px;
   margin-right: 50px;
   margin-bottom: 50px;
@@ -449,8 +452,8 @@ p {
 
 #contact .contact-image {
   background: url('../img/lifting\ the\ veil.jpg') no-repeat center center/cover;
-  width: 100vw;
-  height: 120vh;
+  width: 100%;
+  height: auto;
 }
 
 #contact .phone {
